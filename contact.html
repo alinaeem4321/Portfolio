@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Naeem Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- CSS -->
+    <link type="text/stylesheet" href="style/reset.css" rel="stylesheet">
+    <link href="./assets/style/style.css" rel="stylesheet">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="./main.js" /></script>
+</head>
+
+<body style="background-color: #E8F5E9">
+    <!--Navbar Header-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Naeem Ali</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="skills.html">SKILLS</a>
+                </li>
+                <li>
+                    <a href="projects.html">PROJECTS</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--==================================Start CONTACT Area=========================================================-->
+    <div id="contactSection">
+        <!--ANCHOR-->
+        <section class="container-fluid content-div ">
+            <div class="row text-left ">
+                <h2 class="sub-banner-text ">
+                    Let's we work together!
+                </h2>
+
+                <br>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 " id="icons">
+                    <span id="feedback">I would love to hear from you.</span>
+                    <p>
+                        <span class="glyphicon glyphicon-map-marker"></span> Irving, TX
+                    </p>
+                    <p>
+                        <span class="glyphicon glyphicon-phone"></span> (469) 970-4593</p>
+                    <p>
+                        <span class="glyphicon glyphicon-envelope"></span> alinaeem4321@gmail.com</p>
+                    <!-- stackoverflow -->
+                    <p>
+                        <a href="https://stackoverflow.com/users/9404512/naeem-ali " target="_blank ">
+                            <img src="./assets/images/stock-overflow-white.jpg " alt="Stock-Overflow " class="contact-imgs "> &nbsp;stackoverflow.com/users/9404512/naeem-ali
+                        </a>
+                    </p>
+                    <!-- linkedIn -->
+                    <p>
+                        <a href="https://www.linkedin.com/in/naeem-ali-5b976b155/ " target="_blank ">
+                            <img src="./assets/images/linkedin-icon.png " alt="LinkedIn " class="contact-imgs "> &nbsp;linkedin.com/in/naeem-ali-5b976b155/
+                        </a>
+                    </p>
+                    <!-- github -->
+                    <p>
+                        <a href="https://github.com/alinaeem4321 " target="_blank ">
+                            <img src="./assets//images/github-icon.png " alt="GitHub " class="contact-imgs "> &nbsp;github.com/alinaeem4321
+                        </a>
+                    </p>
+
+                    <a href="https://drive.google.com/open?id=15ymrgOinLVT7_mjYk1BWOH7-_2bFMwKq" target="_blank">
+                        <p id="contactResume">My Resume</p>
+                    </a>
+                </div>
+                <div class="col-xl-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+
+                    <!-- ------------------------- -->
+                    <div class="status"></div>
+                    <!-- ----------------- -->
+
+                    <!-- <form action="https://mail.google.com/mail/u/0/?tab=wm#inbox " method="POST "> -->
+                    <form <form action="https://formspree.io/alinaeem4321@gmail.com" method="POST">
+                        <label for="name "> Name:</label>
+                        <div class="form-group ">
+                            <input type="text " name="Name " class="form-control yourname" id="name " placeholder="i.e. 'Joe Smith' " size="95">
+                        </div>
+                        <label for="email ">Email/Phone Number:</label>
+                        <div class="form-group ">
+                            <input type="text " name="Email/Phone " class="form-control email" id="email " placeholder="j.smith@email.com / 214-867-5309 ">
+                        </div>
+                        <label for="message ">Message:</label>
+                        <div class="form-group ">
+                            <textarea class="form-control message" name="Message " rows="5 " id="message " placeholder="Hi, I 'd like to talk about hiring you!"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="hidden" name="_next" value="#">
+                            <input type="hidden" name="_subject" value="PORTFOLIO FORM">
+                        </div>
+
+                        <button type="submit" class="btn btn-warning submit" class=" target=" _top ">Submit</button>
+                    </form>
+                </div>
+        </section>
+        <!-- //////////////// FOOTER //////////////// -->
+        <footer class="footer ">
+            <div class="container text-center ">
+                <div class="row ">
+                    <h6> Naeem Ali - 2019</h6>
+                </div>
+            </div>
+        </footer>
+        </div>
+</body>
+
+</html>

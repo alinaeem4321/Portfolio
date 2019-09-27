@@ -1,0 +1,289 @@
+body,
+html {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* My Skills & Let's we work together! text */
+
+.sub-banner-text {
+    /* SECTION HEADERS */
+    font-weight: bold;
+    text-align: center;
+    color: rgb(76, 222, 113);
+}
+
+
+/* Not Your,   Let's we work together!, & All other text */
+
+
+/* /////////////////////////       NAVBAR     /////////////////////////////////*/
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #2d3135;
+    border: none;
+    font-weight: bold;
+}
+
+
+/* Naeem Ali header */
+
+.navbar .navbar-brand {
+    color: rgb(76, 222, 113);
+    font-size: 200%;
+}
+
+
+/* navbar menu hover */
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: rgb(76, 222, 113);
+}
+
+
+/* navbar menu items *** About, Skills, Porjects, Contact  */
+
+.navbar .navbar-nav>li>a {
+    color: #fff;
+    font-size: 125%;
+    font-weight: bold;
+    /* padding-right: 30px; */
+}
+
+.navbar .navbar-nav>li>a:hover,
+.navbar .navbar-nav>li>a:focus {
+    color: rgb(76, 222, 113);
+}
+
+
+/* toggle(navbar menu) border color at mobile size */
+
+.navbar .navbar-toggle {
+    border-color: #fff;
+}
+
+
+/* toggle(navbar menu) background color at mobile size */
+
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: rgb(76, 222, 113);
+}
+
+
+/* toggle(navbar menu) lines at mobile size */
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: red;
+}
+
+
+/* ================================================LANDING PAGE STARTS============================================================ */
+
+#LandingImg {
+    /* width: 250px; */
+    width: 100%;
+    height: 60%;
+    /* float: left; */
+    border-radius: 100%;
+    border: 2px solid yellowgreen;
+    margin-left: 5%;
+    /* margin-top: 15% */
+    margin-top: 5%
+}
+
+#headerSection {
+    background-color: rgb(38, 38, 36);
+}
+
+
+/* this brings the "Not Your Average" down */
+
+#positioner {
+    position: relative;
+    transform: translateY(20%);
+}
+
+
+/* Not your Average */
+
+.banner-text {
+    /* PAGE HEADER */
+    color: #fff;
+    font-weight: 500;
+    font-size: 170%;
+    /* margin-top: -10px; */
+}
+
+
+/* web desiner words */
+
+.banner-text1 {
+    color: rgb(76, 222, 113);
+    /* font-size: 400%; */
+    font-size: 250%;
+    text-shadow: yellowgreen 3px 2px;
+}
+
+
+/* You can use my expertise line */
+
+.banner-text2 {
+    /* box-sizing: border-box; */
+    color: #FFFF8D;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    font: nosrmal 100% Montserrat;
+}
+
+
+/* ideas and reality words */
+
+#I_2,
+#I_3 {
+    /* box-sizing: border-box; */
+    color: #0288D1;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    font: italic normal 170%;
+}
+
+
+/* stockOverFlow, Git, and LinkedIn icon */
+
+.header-contact-imgs {
+    /* height: 5%; */
+    height: 4%;
+    width: 4%;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+
+/* ================================================ABOUT ME STARTS============================================================ */
+
+.about-img {
+    /* margin-right: 900px; */
+    margin-left: -15px;
+    width: 65%;
+}
+
+.about-img img {
+    height: -100%;
+}
+
+.img-fluid {
+    /* max-width: 100%; */
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.about-title {
+    margin-top: 10%;
+}
+
+#statement {
+    color: #795548;
+    font-weight: 100;
+}
+
+p {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#aboutMe {
+    font-size: 200%;
+}
+
+#resume-link {
+    color: rgb(25, 5, 114);
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* ================================================SKILLS SECTION STARTS============================================================ */
+
+#skillsetSection {
+    background-color: #FFF9C4;
+    margin-top: 5%;
+}
+
+.skill-div {
+    /* padding: 5px; */
+}
+
+.skill-img {
+    width: 40%;
+}
+
+#skillTitle {
+    font-size: 200%;
+    font-style: oblique;
+    color: #81C784;
+}
+
+
+/* ================================================CONTACT SECTION STARTS============================================================ */
+
+#contactSection {
+    background-color: #E8F5E9;
+    margin-top: 5%
+}
+
+.contact-imgs {
+    height: 5%;
+    width: 5%;
+    /* margin: 5px; */
+}
+
+.btn {
+    background-color: #81C784;
+}
+
+form {
+    font-size: 180%;
+}
+
+#contactResume {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+#feedback {
+    font-family: 'Tangerine', serif;
+    font-size: 600%;
+    color: rgb(249, 187, 6);
+    text-shadow: rgb(76, 222, 113) 2px 2px 2px;
+}
+
+
+/* ================================================FOOTER STARTS============================================================ */
+
+.footer {
+    color: #fff;
+    background-color: #333;
+    /* height: auto; */
+}
+
+.footer {
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+}
+
+.status {
+    background-color: #FFFFF0;
+    font-weight: bold;
+    color: #008000;
+    font-size: 1.5em;
+}
